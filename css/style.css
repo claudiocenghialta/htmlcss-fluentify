@@ -12,25 +12,20 @@
 }
 
 .container {
-    width: 85%;
+    width: 80vw;
     max-width: 1200px;
     margin: 0 auto;
-
-    /* da cancellare */
-    /* background-color: orange; */
 }
 
 
 /* -------------------------------- Formattazione Header ------------------- */
 .blue {
     background-color: #0d325a;
-
-    /* DA ELIMINARE */
-    /* height: 200px; */
 }
 
 header {
     height: 50vh;
+    max-height: 500px;
     color: white;
     position: relative;
 }
@@ -48,7 +43,6 @@ nav {
 #img-logo {
     float: left;
     vertical-align: middle;
-    /* padding-right: 40px; */
 }
 #menu {
     float: left;
@@ -112,6 +106,7 @@ button {
     bottom: 0;
     right: 0;
     width: 70%;
+    transform: translateX(20%);
 }
 
 /* ------------------------------------Formattazione section grey-------------- */
@@ -120,7 +115,7 @@ button {
 }
 .grey .container {
     text-align: center;
-    padding: 25px 0;
+    padding: 35px 0;
     line-height: 30px;
 }
 
