@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Museo Sans';
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -30,7 +30,7 @@
 }
 
 header {
-    height: 450px;
+    height: 50vh;
     color: white;
     position: relative;
 }
@@ -42,6 +42,7 @@ nav {
     line-height: 50px;
     font-size: 11px;
     padding: 20px 0;
+    font-weight: 700;
 }
 
 #img-logo {
@@ -51,7 +52,7 @@ nav {
 }
 #menu {
     float: left;
-    padding: 0 40px;
+    padding: 0 50px;
 }
 #menu li {
     list-style: none;
@@ -74,15 +75,36 @@ nav {
 }
 
 button {
-    line-height: 1.25;
-    white-space: nowrap;
-    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#btn-login {
+    padding: 8px 25px;
+    background-color: #0d325a;
+    border: 1px solid white;
+}
+
+.btn-struttura-piano {
+    padding: 8px 10px;
+    border: 1px solid #7cbb02;
+    background-color: #7cbb02;
 }
 
 .left-tagline {
     position: absolute;
     width: 50%;
     top: 50%;
+    font-size: 20px;
+    z-index: 2;
+    transform: translate(0 , -30%);
+    font-weight: 700;
+}
+
+.left-tagline .btn-struttura-piano {
+    padding: 20px 15px;
 }
 
 #oldman {
