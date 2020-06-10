@@ -105,7 +105,8 @@ button {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 70%;
+    height: calc(50vh - 70px);
+    max-height: 430px;
     transform: translateX(20%);
 }
 
@@ -135,10 +136,9 @@ button {
 
 .card {
     width: 33.3333%;
-    height: 350px;
     float: left;
     text-align: center;
-    padding: 10px;
+    padding: 25px 20px;
 }
 .card img {
     height: 160px;
@@ -147,16 +147,15 @@ button {
 }
 .card h4 {
     color: #7cbb02;
-    height: 50px;
     top: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .card hr {
-    margin: 0 auto;
+    margin: auto;
     width: 60px;
     border: 1px solid #808080;
 }
 .card p {
-    padding-top: 10px;
+    padding-top: 15px;
     color: #808080
 }
