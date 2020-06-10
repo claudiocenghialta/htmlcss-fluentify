@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Museo Sans';
 }
 
 .clearfix::after {
@@ -10,25 +11,106 @@
     clear: both;
 }
 
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* da cancellare */
+    /* background-color: orange; */
+}
+
+
+/* -------------------------------- Formattazione Header ------------------- */
 .blue {
     background-color: #0d325a;
 
     /* DA ELIMINARE */
-    height: 200px;
+    /* height: 200px; */
+}
+
+header {
+    height: 450px;
+    color: white;
+    position: relative;
+}
+
+nav {
+    position: relative;
+    height: 90px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 11px;
+    padding: 20px 0;
 }
 
 #img-logo {
-    padding-right: 30px;
+    float: left;
+    vertical-align: middle;
+    /* padding-right: 40px; */
+}
+#menu {
+    float: left;
+    padding: 0 40px;
+}
+#menu li {
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+    text-transform: uppercase;
 }
 
+.nav-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
 
+}
+.nav-buttons * {
+    margin: 0 10px;
+    font-size: 11px;
+}
 
+button {
+    line-height: 1.25;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.left-tagline {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+}
+
+/* ------------------------------------Formattazione section grey-------------- */
 .grey {
-    background-color: #f9f9f9;
-
+    background-color: #d3d3d3;
+    position: relative;
     /* DA ELIMINARE */
     height: 200px;
 }
+
+.grey .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.grey h2 {
+    color: black;
+    padding-bottom: 15px;
+}
+
+.grey p {
+    color: #808080;
+}
+
+/* ----------------------------------------Formattazione section white ----------------- */
 .white {
     background-color: white;
 
